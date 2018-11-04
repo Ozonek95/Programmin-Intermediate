@@ -1,4 +1,7 @@
+package recursion;
+
 import org.junit.Test;
+import recursion.DecimalToBinary;
 
 public class DecimalToBinaryThrowingExceptionTest {
     @Test(expected = IllegalArgumentException.class)

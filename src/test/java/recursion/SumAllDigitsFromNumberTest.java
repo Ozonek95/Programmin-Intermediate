@@ -1,9 +1,11 @@
+package recursion;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import recursion.SumAllDigitsFromNumber;
 
-import java.security.Policy;
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -28,5 +30,10 @@ public class SumAllDigitsFromNumberTest {
     public void runTests(){
         SumAllDigitsFromNumber sumAllDigitsFromNumber = new SumAllDigitsFromNumber();
         Assert.assertEquals(result,sumAllDigitsFromNumber.sum(input));
+    }
+    @Test
+    public void runTests2(){
+        SumAllDigitsFromNumber sumAllDigitsFromNumber = new SumAllDigitsFromNumber();
+        Assert.assertEquals(result,sumAllDigitsFromNumber.sum(0,input));
     }
 }

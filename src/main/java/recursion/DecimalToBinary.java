@@ -1,3 +1,5 @@
+package recursion;
+
 public class DecimalToBinary {
     public  String binaryRecursion(int number){
         if(number<0){

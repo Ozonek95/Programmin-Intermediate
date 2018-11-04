@@ -1,7 +1,10 @@
+package recursion;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import recursion.DecimalToBinary;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -11,9 +14,11 @@ public class DecimalToBinaryTest {
 
     private int input;
     private String result;
+    private int zero;
 
 
     public DecimalToBinaryTest(String result, int input) {
+
         this.input = input;
         this.result = result;
     }
@@ -30,5 +35,6 @@ public class DecimalToBinaryTest {
         DecimalToBinary decimalToBinary = new DecimalToBinary();
         Assert.assertEquals(result,decimalToBinary.binaryRecursion(input));
     }
+
 
 }

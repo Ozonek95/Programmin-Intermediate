@@ -1,3 +1,5 @@
+package recursion;
+
 public class SumAllDigitsFromNumber {
     //uproszczone
 
