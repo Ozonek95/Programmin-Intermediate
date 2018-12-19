@@ -1,7 +1,5 @@
 package exercise1;
 
-import com.google.common.annotations.VisibleForTesting;
-
 import java.util.*;
 
 public class BasketImplementation implements Basket {
